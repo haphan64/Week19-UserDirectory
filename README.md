@@ -2,7 +2,7 @@
 
 ## Heroku Deploy
 
-https://user-directory-h.herokuapp.com/
+https://employee-directory-h.herokuapp.com/
 
 ## User Story
 
