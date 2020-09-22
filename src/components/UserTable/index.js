@@ -5,14 +5,14 @@ import { Table } from "react-bootstrap";
 
 function UserTable ({ users, searchType, search, sort, updateSort }) {
 
-    const filterBySearch = useUserFilter(searchType, search );
+    // const filterBySearch = useUserFilter(searchType, search );
 
-    const sortByLocation = useLocationSort (sort);   
+    // const sortByLocation = useLocationSort (sort);   
        
     return (
 
         <Table striped bordered hover>
-            <thead>
+            {/* <thead>
                 <tr>                    
                     <th scope="col">First Name</th>
                     <th scope="col">Last Name</th>
@@ -40,7 +40,7 @@ function UserTable ({ users, searchType, search, sort, updateSort }) {
                     )  
                 })}
                 
-            </tbody>
+            </tbody> */}
 
         </Table>
 
