@@ -1,7 +1,7 @@
 import React from "react";
 import API from "../utils/API";
-import UserTable from "../components/UserTable";
-import SearchForm from "../components/SearchForm";
+// import UserTable from "../components/UserTable";
+// import SearchForm from "../components/SearchForm";
 import { Card, Container } from "react-bootstrap"
 
 class Directory extends React.Component {
@@ -38,19 +38,19 @@ class Directory extends React.Component {
         return (
             <Container>
                
-                <Card body>
+                {/* <Card body>
                     <SearchForm updateSearch={this.updateSearch} />
-                </Card>        
+                </Card>         */}
 
                 <h2>Employee Directory</h2>        
                 
-                <UserTable 
+                {/* <UserTable 
                     users = {this.state.users}
                     search = {this.state.search}
                     searchType = {this.state.searchType}
                     sort = {this.state.sort}
                     updateSort = {this.updateSort}
-                 />
+                 /> */}
 
              </Container>
         )
